@@ -1,0 +1,12 @@
+
+.input-error {
+    border: 1px solid red;
+}
+
+.form-error {
+    color: red;
+}
+
+.linkIsActive {
+    color: green;
+}
