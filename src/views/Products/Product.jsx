@@ -7,7 +7,7 @@ const { VITE_API_URL, VITE_API_PATH } = import.meta.env
 function Product() {
     const [product, setProduct] = useState({});
     const params = useParams();
-    console.log(params);
+    // console.log(params);
     const { id } = params;
 
     useEffect(() => {

@@ -15,6 +15,7 @@ function Layout() {
         <NavLink to="/people" className={activeClass}>很多人</NavLink> |
         <NavLink to="/products" className={activeClass}>產品列表</NavLink>
         </nav>
+        {/* 內頁內容 */}
         <Outlet />
         <footer>頁腳</footer>
         </>
